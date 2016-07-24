@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.three.kwctl.mykwlaunching.CallOffice">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="중앙도서관"
+        android:onClick="onClick25"
+        android:id="@+id/button26"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="학생복지처"
+    android:onClick="onClick26"
+    android:id="@+id/button27"
+    android:layout_below="@+id/button26"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입학처"
+        android:onClick="onClick27"
+        android:id="@+id/button28"
+        android:layout_below="@+id/button27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총무처"
+        android:onClick="onClick28"
+        android:id="@+id/button29"
+        android:layout_below="@+id/button28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="관리처"
+        android:onClick="onClick29"
+        android:id="@+id/button30"
+        android:layout_below="@+id/button29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정보통신처"
+        android:onClick="onClick30"
+        android:id="@+id/button31"
+        android:layout_below="@+id/button30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전정대"
+        android:onClick="onClick31"
+        android:id="@+id/button32"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="공과대"
+        android:onClick="onClick32"
+        android:id="@+id/button33"
+        android:layout_above="@+id/button28"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정법대"
+        android:onClick="onClick33"
+        android:id="@+id/button34"
+        android:layout_below="@+id/button33"
+        android:layout_alignRight="@+id/button33"
+        android:layout_alignEnd="@+id/button33" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="경영대"
+        android:onClick="onClick34"
+        android:id="@+id/button35"
+        android:layout_below="@+id/button28"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동북아대"
+        android:onClick="onClick35"
+        android:id="@+id/button36"
+        android:layout_below="@+id/button35"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인제니움"
+        android:onClick="onClick36"
+        android:id="@+id/button37"
+        android:layout_alignBottom="@+id/button31"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.three.kwctl.mykwlaunching.CallSubject">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전자공학과"
+        android:id="@+id/button"
+        android:onClick="onClick1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전자통신과"
+        android:id="@+id/button2"
+        android:onClick="onClick2"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전자융합과"
+        android:onClick="onClick3"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="컴퓨터공학과"
+        android:onClick="onClick4"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="컴퓨터SW과"
+        android:onClick="onClick5"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전기공학과"
+        android:onClick="onClick6"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전자재료학과"
+        android:onClick="onClick7"
+        android:id="@+id/button8"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로봇학부"
+        android:onClick="onClick8"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="건축공학과"
+        android:onClick="onClick9"
+        android:id="@+id/button10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화학공학과"
+        android:onClick="onClick10"
+        android:id="@+id/button11"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="환경공학과"
+        android:onClick="onClick11"
+        android:id="@+id/button12"
+        android:layout_below="@+id/button11"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="건축학과"
+        android:onClick="onClick12"
+        android:id="@+id/button13"
+        android:layout_above="@+id/button14"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수학과"
+        android:onClick="onClick13"
+        android:id="@+id/button14"
+        android:layout_alignTop="@+id/button6"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전자물리학과"
+        android:onClick="onClick14"
+        android:id="@+id/button15"
+        android:layout_above="@+id/button8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화학과"
+        android:onClick="onClick15"
+        android:id="@+id/button16"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생활체육학과"
+        android:onClick="onClick16"
+        android:id="@+id/button17"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="국어국문학과"
+        android:onClick="onClick17"
+        android:id="@+id/button18"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영어영문학과"
+        android:onClick="onClick18"
+        android:id="@+id/button19"
+        android:layout_above="@+id/button12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="미디어학부"
+        android:onClick="onClick19"
+        android:id="@+id/button20"
+        android:layout_alignTop="@+id/button12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="산업심리학과"
+        android:onClick="onClick20"
+        android:id="@+id/button21"
+        android:layout_above="@+id/button14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="행정학과"
+        android:onClick="onClick21"
+        android:id="@+id/button22"
+        android:layout_alignTop="@+id/button14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="법학부"
+        android:onClick="onClick22"
+        android:id="@+id/button23"
+        android:layout_above="@+id/button16"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="국제학부"
+        android:onClick="onClick23"
+        android:id="@+id/button24"
+        android:layout_alignTop="@+id/button16"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="경영학부"
+        android:onClick="onClick24"
+        android:id="@+id/button25"
+        android:layout_below="@+id/button24"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주의사항 : 전화번호부와 바로    연결됩니다."
+        android:id="@+id/textView11"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button17"
+        android:layout_alignEnd="@+id/button17" />
+</RelativeLayout>

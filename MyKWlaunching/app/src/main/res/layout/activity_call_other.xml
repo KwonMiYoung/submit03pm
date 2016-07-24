@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.three.kwctl.mykwlaunching.CallOther">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="우체국"
+        android:onClick="onClick37"
+        android:id="@+id/button38"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="우편물실"
+        android:onClick="onClick38"
+        android:id="@+id/button39"
+        android:layout_below="@+id/button38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="하나은행"
+        android:onClick="onClick39"
+        android:id="@+id/button40"
+        android:layout_below="@+id/button39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="푸드코트"
+        android:onClick="onClick40"
+        android:id="@+id/button41"
+        android:layout_below="@+id/button40"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로봇연구회"
+        android:onClick="onClick41"
+        android:id="@+id/button42"
+        android:layout_below="@+id/button41"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예비군"
+        android:onClick="onClick42"
+        android:id="@+id/button43"
+        android:layout_below="@+id/button42"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="언어교육원"
+        android:onClick="onClick43"
+        android:id="@+id/button44"
+        android:layout_below="@+id/button43"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기숙사"
+        android:onClick="onClick44"
+        android:id="@+id/button45"
+        android:layout_below="@+id/button44"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총장실"
+        android:onClick="onClick45"
+        android:id="@+id/button46"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="보건실"
+        android:onClick="onClick48"
+        android:id="@+id/button49"
+        android:layout_above="@+id/button40"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
